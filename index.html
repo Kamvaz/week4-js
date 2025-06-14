@@ -7,8 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="heading">hello</h1>
-    <p id="paragraph1">everyone</p>
+    <h1 id="heading1"></h1>
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+
+    <script>
+        var text1;
+        var text2;
+        var text3;
+
+        var numA = 7;
+        var numB = 10;
+
+        text1="Hello everyone";
+        text2="I enjoy Fishing";
+        text3=" especially In Summer";
+
+        document.getElementById("heading1").innerHTML=(text1);
+        document.getElementById("paragraph1").innerHTML=(text2 + text3);
+        document.getElementById("paragraph2").innerHTML=(numA + "×" +numB+"=" + numA * numB)
+    </script>
     
 </body>
 </html>
